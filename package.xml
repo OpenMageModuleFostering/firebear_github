@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Firebear_GitHub</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Install Magento extensions from GitHub</summary>
+    <description>Install Magento extensions from GitHub</description>
+    <notes>* First release</notes>
+    <authors><author><name>Firebear studio</name><user>fbeardev</user><email>fbeardev@gmail.com</email></author></authors>
+    <date>2014-03-08</date>
+    <time>23:29:06</time>
+    <contents><target name="magecommunity"><dir name="Firebear"><dir name="GitHub"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><file name="Button.php" hash="522aa1eecd6c8615215bba9d17af0645"/><file name="Install.php" hash="f0a86c966a7f377d2109320ccd3339c0"/><file name="Uninstall.php" hash="f42bb807ecd592f4bd75f2f93e0ada57"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="2e8bef4e0ea09f81b35d4f4c70566756"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="GithubController.php" hash="eff132d13851980e7dea296c128dfa0b"/></dir><file name="IndexController.php" hash="bdd503eabc57352ca1ce897c2ff7a75a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="93ece7aa1413d22439b49fd913a8fb91"/><file name="config.xml" hash="6a8dcfd20dd6b36f6b098fee8c0154c1"/><file name="system.xml" hash="1f75ac414329ba2d2e9876d2393cbf67"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Firebear_GitHub.xml" hash="eac3bd744b6275fc7532b47bf22593c7"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="firebear"><dir name="github"><dir name="system"><dir name="config"><file name="button.phtml" hash="dd93313d7c77311c650f71b5e2722496"/><file name="install.phtml" hash="70a7eba8ff477e2d56b9a3f98853824b"/><file name="uninstall.phtml" hash="37ecf678e6a557f95e951bb5cf5ac47e"/></dir></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.5.2</max></php></required></dependencies>
+</package>
