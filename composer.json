@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Firebear_GitHub",
+    "name": "OpenMageModuleFostering\/Firebear_GitHub",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Install Magento extensions from GitHub",
     "authors": [
-    {
-        "name": "Firebear studio",
-        "email": "fbeardev@gmail.com"
-    }
-],
+        {
+            "name": "Firebear studio",
+            "email": "fbeardev@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
